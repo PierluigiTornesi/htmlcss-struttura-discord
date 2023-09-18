@@ -12,6 +12,10 @@
 a{
     text-decoration: none;
 }
+/* classe per gli sfondi grigi */
+.b-gray{
+    background-color: gray;
+}
 /* classe per l'header */
 header{
     height: 400px;
@@ -64,4 +68,53 @@ nav{
     margin: 1.5rem auto;
     min-height: 300px;
     background-color: pink;
+    border: var(--bb-border);
+}
+/* classe per la parte superiore del main */
+.section-main-top{
+    min-height: 500px;
+    padding: 3rem;
+}
+/* classe per le sezioni del main superiore */
+.flex-section{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 0 auto;
+    min-height: 400px;
+    border: var(--bb-border);
+}
+/* classe per i blocchi blu */
+.block-blu{
+    width: 60%;
+    min-height: 400px;
+    background-color: blue;
+    border: var(--bb-border);
+}
+/* classe per i blocchi rosa */
+.block-rosa{
+    width: 40%;
+    min-height: 400px;
+    background-color: pink;
+    border: var(--bb-border);
+}
+/* classe per la sezione del main inferiore*/
+.section-main-bottom{
+    min-height: 1000px;
+    padding: 3rem;
+}
+/* classe per la sezione del blocco singolo*/
+.flex-section-block{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 0 auto;
+    min-height: 900px;
+    border: var(--bb-border);
+}
+/* classe per il blocco verde */
+.block-verde{
+    min-height: 800px;
+    width: 100%;
+    background-color: green;
 }
