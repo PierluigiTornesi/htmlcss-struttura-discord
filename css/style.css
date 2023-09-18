@@ -4,3 +4,64 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* ROOT */
+:root{
+    --bb-border: 1px dashed black;
+}
+/* classe per tutti i link */
+a{
+    text-decoration: none;
+}
+/* classe per l'header */
+header{
+    height: 400px;
+    width: 100%;
+    background-color: blue;
+}
+/* classe per il nav  */
+nav{
+    background-color: lightblue;
+    padding: 1rem;
+}
+/*classe per il container del nav  */
+.flex-container-nav{
+    width: 60%;
+    margin: 0 auto;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+    justify-content: space-between;
+    align-items: center;
+    border: var(--bb-border);
+    gap: 1rem;
+}
+/* classi per il login e il logo per dargli lo spazio al lato */
+.logo{
+    margin-left: 10px;
+}
+.login{
+    margin-right: 10px;
+}
+/* classe per la lista */
+.flex-list{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    border-left: var(--bb-border);
+    border-right: var(--bb-border);
+}
+/* classe per tutti i li della lista */
+.flex-list li{
+    margin: 0 0.5rem;
+}
+/* classe per il blocco dentro l'header */
+.block-header{
+    width: 40%;
+    margin: 1.5rem auto;
+    min-height: 300px;
+    background-color: pink;
+}
